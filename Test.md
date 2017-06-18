@@ -1,7 +1,9 @@
 # 基于互联网大数据的事件智能抓取和画像
+
+## 注意事项
+
 - **背景**
     
-
     随着互联网大数据的发展，各种大数据的分析对各行业都产生了不同程度的影响。网站数据、社交媒体数据等是互联网大数据的重要组成部分。对于民航业领域，社会事件的发生，会很大程度影响旅客的出行需求变化，从而影响航空公司飞机运力投放、航班编排、票价策略调整等，对互联网事件的准确抓取和分析能够帮助航空公司更好的服务市场、服务旅客、提升收益等。
 
 - **开发语言**
@@ -13,19 +15,24 @@
 - **演示**
 
     ![Sample Video](https://gitlab.com/gitlab-org/gitlab-ce/raw/master/doc/user/img/markdown_video.mp4)
-## 软件使用前准备
+
+-  **数据可视化地址**
+
+    <http://url.com>
+   
+## 软件使用前准备工作
+
 - **python版本号**(v2.7)
+
 - **自动化测试驱动**(选其一，根据实际情况修改代码中的驱动调用即可)
         
-
         1.Chrome
         2.PhantomJS
-> 例子
+>   例子:
 
     ```python
-    driver=webdriver.PhantomJS<br>
-    driver=webdriver.Chrome()
-    ```
+        driver=webdriver.PhantomJS
+   ```
 
 - **主要使用到的框架，模块，请前往对应官网下载**
 
@@ -40,14 +47,17 @@
 | pandas|数据处理|
 | Simhash|利用simhash，海明距离对重复事件去重|
 | ...|...|
-> <font color="red"">注意:</font>
-> 分词模型采用本地化分词，[点击下载](baidu.com),导入方式如下
+
+>   <font color="red"">注意:</font>
+    
+分词模型采用本地化分词，[点击下载](baidu.com),导入方式如下
 
 ```python
 from pyltp import Segmentor
 segmentor = Segmentor()
 segmentor.load(r'C:\Users\hzl\PycharmProjects\untitled\chinasoftbei\analyse\ltp_data\cws.model')  # 分句模型
 ```
+
 ## 特性和功能
 1. **事件去重**
 2. **准确的关键字提取**
@@ -55,9 +65,11 @@ segmentor.load(r'C:\Users\hzl\PycharmProjects\untitled\chinasoftbei\analyse\ltp_
 4. **简洁明了的可视化界面**
 5. **丰富的事件来源**(爬取了发布事件的主流网站)
 
+## 软件安装及使用
 
+## 未来计划
 
-
+## 遵循协议
 
 
 
