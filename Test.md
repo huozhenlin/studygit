@@ -8,9 +8,9 @@
 
 - **开发语言**
 
-    <font face="微软雅黑" color="blue"size=3>Python</font>(数据挖掘和分析)<br>
-    <font face="微软雅黑"color="blue"size=3>Javascript</font>(用于数据可视化)<br>
-    <font face="微软雅黑"color="blue"size=3>PHP</font>(后台语言)
+    <font face="微软雅黑" color="blue" size=3>Python</font>(数据挖掘和分析)<br>
+    <font face="微软雅黑" color="blue" size=3>Javascript</font>(用于数据可视化)<br>
+    <font face="微软雅黑" color="blue" size=3>PHP</font>(后台语言)
 
 - **演示**
 
@@ -28,11 +28,12 @@
         
         1.Chrome
         2.PhantomJS
+
+
 >   例子:
 
-    ```python
         driver=webdriver.PhantomJS
-   ```
+        
 
 - **主要使用到的框架，模块，请前往对应官网下载**
 
@@ -48,7 +49,7 @@
 | Simhash|利用simhash，海明距离对重复事件去重|
 | ...|...|
 
->   <font color="red"">注意:</font>
+>   <font color="red">注意:</font>
     
 分词模型采用本地化分词，[点击下载](baidu.com),导入方式如下
 
