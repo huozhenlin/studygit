@@ -32,7 +32,6 @@
 
 >   例子:
 
-    
     ```python
     driver=webdriver.PhantomJS
     ```
