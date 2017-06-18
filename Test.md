@@ -32,9 +32,9 @@
 
 >   例子:
 
-        ```python
+        `
         driver=webdriver.PhantomJS
-        ```
+        `
 
 - **主要使用到的框架，模块，请前往对应官网下载**
 
