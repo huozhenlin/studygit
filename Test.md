@@ -28,8 +28,11 @@
         
         1.Chrome
         2.PhantomJS
+
+
 >   例子:
 
+    
     ```python
     driver=webdriver.PhantomJS
     ```
