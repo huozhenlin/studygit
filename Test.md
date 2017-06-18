@@ -32,9 +32,8 @@
 
 >   例子:
 
-        `
         driver=webdriver.PhantomJS
-        `
+        
 
 - **主要使用到的框架，模块，请前往对应官网下载**
 
@@ -50,7 +49,7 @@
 | Simhash|利用simhash，海明距离对重复事件去重|
 | ...|...|
 
->   <font color="red"">注意:</font>
+>   <font color="red">注意:</font>
     
 分词模型采用本地化分词，[点击下载](baidu.com),导入方式如下
 
