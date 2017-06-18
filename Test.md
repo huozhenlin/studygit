@@ -8,9 +8,9 @@
 
 - **开发语言**
 
-    <font face="微软雅黑" color="blue"size=3>Python</font>(数据挖掘和分析)<br>
-    <font face="微软雅黑"color="blue"size=3>Javascript</font>(用于数据可视化)<br>
-    <font face="微软雅黑"color="blue"size=3>PHP</font>(后台语言)
+    <font face="微软雅黑" color="blue" size=3>Python</font>(数据挖掘和分析)<br>
+    <font face="微软雅黑" color="blue" size=3>Javascript</font>(用于数据可视化)<br>
+    <font face="微软雅黑" color="blue" size=3>PHP</font>(后台语言)
 
 - **演示**
 
