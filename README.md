@@ -1,6 +1,13 @@
+---
+date: 2017-06-30 18:02
+status: public
+title: README
+---
+
 # 事件热度分析算法
 - 数学公式:hot_num= math.log(100000000/int(num))
 ###原理解析
+[Test.md](/test/studygit/Test.md)
 - 捉取百度搜索引擎返回来的结果数，通过 math.log(100000000/int(num) 这数学公式获取热度，因为分词后词词出现的次数越大，结果越小，那么这个就是关键字
 > 算法实现如下
 ```python
